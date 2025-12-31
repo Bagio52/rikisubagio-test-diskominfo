@@ -6,54 +6,53 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #1d1f21; /* Dark background */
-            color: #f8f9fa; /* Light text */
+            background-color: #1d1f21;
+            color: #f8f9fa;
         }
 
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #ffcc00; /* Bright color for title */
+            color: #ffcc00;
         }
 
         .form-select {
-            background-color: #343a40; /* Form background */
-            border: 1px solid #ffcc00; /* Border color */
-            color: #f8f9fa; /* Text color */
+            background-color: #343a40;
+            color: #f8f9fa;
         }
 
         .form-select:focus {
-            border-color: #ffc107; /* Focus border color */
-            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25); /* Shadow effect */
+            border-color: #ffc107;
+            box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
         }
 
         .card {
-            background-color: #2c2f33; /* Card background */
-            border: none; /* Remove default border */
-            transition: transform 0.3s; /* Hover effect */
-            color: #ffcc00; /* Card text color */
+            background-color: #2c2f33;
+            border: none;
+            transition: transform 0.3s;
+            color: #ffcc00;
         }
-
+        
         .card:hover {
-            transform: translateY(-5px); /* Lift effect on hover */
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+            transform: translateY(-5px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
         }
 
         .card-img-top {
-            height: 150px; /* Adjusted height for images */
-            object-fit: contain; /* Keep aspect ratio */
+            height: 150px;
+            object-fit: contain;
         }
 
         ul {
-            padding-left: 0; /* Remove default padding */
-            list-style-type: none; /* Remove bullets */
+            padding-left: 0;
+            list-style-type: none;
         }
 
         li {
-            background-color: #444; /* Background for list items */
-            border-radius: 5px; /* Rounded corners */
-            margin-bottom: 5px; /* Space between items */
-            padding: 5px; /* Padding for list items */
+            background-color: #444;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            padding: 5px;
         }
     </style>
 </head>
