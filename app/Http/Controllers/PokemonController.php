@@ -99,7 +99,7 @@ class PokemonController extends Controller
         }
 
         // SORTING BERAT TERBERAT → TERINGAN
-        $pokemons = $query->orderBy('weight', 'asc')->get();
+        $pokemons = $query->orderBy('weight', 'desc')->get();
 
         return view('pokemons.index', compact('pokemons'));
     }

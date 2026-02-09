@@ -32,7 +32,7 @@
             transition: transform 0.3s;
             color: #ffcc00;
         }
-        
+
         .card:hover {
             transform: translateY(-5px);
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
@@ -91,7 +91,7 @@
                         <h5 class="card-title">{{ $pokemon->name }}</h5>
 
 
-                        <p class="mb-1"><strong>Base Exp:</strong> {{ $pokemon->base_experience }}</p>
+                        <p class="mb-1"><strong>Best Exp:</strong> {{ $pokemon->best_experience }}</p>
                         <p class="mb-2"><strong>Weight:</strong> {{ $pokemon->weight }}</p>
                         <p class="mb-2"><strong>Stat:</strong> {{ $pokemon->stat }}</p>
 
